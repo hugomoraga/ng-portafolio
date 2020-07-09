@@ -1,0 +1,25 @@
+<div class="container">
+    <h1 class="text-center text-white pb-5"> Trabajos </h1>
+    <div class="row">
+        <div class="col-md-12">
+            <ngb-carousel>
+
+                <ng-template ngbSlide *ngFor="let work of works">
+                    <div class="img-wrapper">
+                        <img [src]="work.img" alt="Angular Carousel 1">
+                    </div>
+                    <div class="carousel-caption ccaption">
+                        <div class="d-inline-block align-baseline">
+                            <h3>{{ work.name }}</h3>
+                        </div>
+                        <div class=" p-1 d-inline-block align-top ">
+                            <a class=" badge badge-success " href="{{ work.url }} " target="_parent ">  Link </a>
+                        </div>
+                        <p> {{ work.description }} </p>
+                    </div>
+                </ng-template>
+
+            </ngb-carousel>
+        </div>
+    </div>
+</div>

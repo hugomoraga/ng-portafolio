@@ -1,0 +1,18 @@
+.img-wrapper {
+    img {
+        width: 100vw;
+        max-width: 100%;
+        display: block;
+        margin: 0;
+        border-radius: 20px;
+    }
+}
+
+.ccaption {
+    background: rgba(20, 56, 69, 0.8);
+    border-radius: 20px;
+    width: 80%;
+    left: 10%;
+    font-family: 'Share Tech Mono', monospace;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em
+}

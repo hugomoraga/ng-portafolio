@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: Arame;
+    src: url(assets/fonts/Arame.ttf);
+}
+
+body {
+    background: url("/assets/background2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 80% 80%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body h1 {
+    font-family: Arame;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em
+}
