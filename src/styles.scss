@@ -22,3 +22,14 @@ body h1 {
 #work .fp-tableCell {
     vertical-align: top;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: rgb(8, 129, 123);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 90%;
+    border: 3px solid rgb(8, 129, 123);
+}

@@ -13,8 +13,8 @@
             <ngb-carousel>
 
                 <ng-template ngbSlide *ngFor="let work of works">
-                    <div class="img-wrapper">
-                        <img [src]="work.img" alt="Angular Carousel 1">
+                    <div class="mx-auto">
+                        <img [src]="work.img" alt="Angular Carousel 1" class="img-responsive">
                     </div>
                     <div class="carousel-caption ccaption">
                         <div class="d-inline-block align-baseline">
@@ -24,6 +24,7 @@
                             <a class=" badge badge-success " href="{{ work.url }} " target="_parent ">  Link </a>
                         </div>
                         <p> {{ work.description }} </p>
+                        <p class=""> Technologies: <span class="font-weight-lighter"> [{{ work.technologies.join(', ') }}] </span></p>
                     </div>
                 </ng-template>
 

@@ -1,10 +1,6 @@
-.img-wrapper {
-    border-radius: 20px;
-    img {
-        width: 80vw;
-        max-width: 100%;
-        margin: 0;
-    }
+.carousel-inner>.item>img {
+    width: 960px;
+    height: 540px;
 }
 
 .ccaption {
@@ -21,16 +17,18 @@
 }
 
 @media (max-width: 750px) {
-    .img-wrapper {
-        img {
-            width: 130vh;
-            max-width: 140%;
-            margin: 0;
-            height: 65vh;
-        }
-    }
     .fix-carousel {
         height: 80vh;
         margin-left: -10px;
     }
+    .carousel-inner>.item>img {
+        width: 640px;
+        height: 640px;
+    }
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 100w;
 }
