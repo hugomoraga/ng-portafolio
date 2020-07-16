@@ -1,7 +1,15 @@
-<div class="container">
-    <h1 class="text-center text-white pb-5"> Trabajos </h1>
+<div class="container work">
     <div class="row">
-        <div class="col-md-12">
+        <!-- titulo -->
+        <div class="col-md-12 pt-5">
+            <div class="text-center text-white">
+                <h1> Trabajos </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="work">
+        <div class="col-md-12 justify-content-center fix-carousel pt-5">
             <ngb-carousel>
 
                 <ng-template ngbSlide *ngFor="let work of works">
@@ -22,4 +30,5 @@
             </ngb-carousel>
         </div>
     </div>
+
 </div>

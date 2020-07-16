@@ -2,6 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { MnFullpageModule } from 'ngx-fullpage';
+
+
 
 
 
@@ -33,6 +36,8 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     BrowserModule,
     BrowserAnimationsModule,
     NgbModule,
+    MnFullpageModule.forRoot(), // This import, right!
+
     APP_ROUTING
   ],
   providers: [
