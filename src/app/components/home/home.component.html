@@ -1,5 +1,34 @@
-<app-header></app-header>
-<app-skillz></app-skillz>
-<app-carousel></app-carousel>
-<app-experiencia></app-experiencia>
-<app-footer></app-footer>
+<div class="full-screen">
+
+    <div id="content-wrapper" [mnFullpage]="options" [mnFullpageNavigation]="true" [mnFullpageKeyboardScrolling]="true" [mnFullpageSlidesNavigation]="true" mnFullpageSlidesNavPosition="bottom">
+        <div class="section welcome-section fp-section fp-table">
+            <div class="fp-tableCell">
+                <app-header>
+
+                </app-header>
+            </div>
+        </div>
+        <div class="section midle-section fp-section fp-table">
+            <div class="fp-tableCell">
+                <app-skillz>
+
+                </app-skillz>
+            </div>
+        </div>
+        <div class="section last-section fp-section">
+            <div class="">
+                <app-carousel></app-carousel>
+            </div>
+        </div>
+        <div class="section foot-section fp-auto-height">
+            <div class="fp-tableCell">
+                <app-footer></app-footer>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>

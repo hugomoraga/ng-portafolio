@@ -1,16 +1,14 @@
-<header>
-    <div class="jumbotron">
-        <div class="row"></div>
-        <div class="overlay">
-            <video loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true">
-                <source src="../../../assets/bg.mp4" type="video/mp4">
+<header class="section">
+    <div class="jumbotron" id="section0">
+        <video id="bgVideo" loop muted data-autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true">
+                <source data-src="../../../assets/bg.mp4" type="video/mp4">
                 </video>
 
 
-        </div>
-        <div class="container h-100">
-            <div class="d-flex h-100 text-center align-items-center">
-                <div class="w-100 text-white">
+
+        <div class="layer row">
+            <div class="text-center col-md-12">
+                <div class="text-white">
                     <h1 class="display-4">HUGO MORAGA</h1>
                     <p class="lead">SYSADMIN > DEVELOPER > DESIGN > ART</p>
                     <hr class="my-4">

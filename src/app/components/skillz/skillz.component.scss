@@ -4,18 +4,7 @@ svg text.blink {
 
 .skillz {
     height: 100vh;
-}
-
-body {
-    text-align: center;
-    background-color: #000000;
-    color: #ffffff;
-    position: relative;
-}
-
-#tagi {
-    width: 100%;
-    margin: 100px auto;
+    width: 100vw;
 }
 
 @keyframes blink {
