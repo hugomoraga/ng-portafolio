@@ -79,7 +79,7 @@ export class WorksService {
                 'Cloud Storage',
             ],
             description: 'Aplicacion Ruby On Rails Con Buscador de Productos Veganos',
-            img: 'assets/Veganlog.jpg',
+            img: 'assets/veganlog.jpg',
             url: 'https://veganlog.herokuapp.com'
         },
     ];
