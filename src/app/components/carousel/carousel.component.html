@@ -1,7 +1,7 @@
 <div class="container work">
     <div class="row">
         <!-- titulo -->
-        <div class="col-md-12 pt-5">
+        <div class="col-md-12 p-3">
             <div class="text-center text-white">
                 <h1> Trabajos </h1>
             </div>
@@ -9,9 +9,9 @@
     </div>
 
     <div class="row" id="work">
-        <div class="col-md-12 justify-content-center fix-carousel pt-5">
+        <div class="col-md-12 justify-content-center fix-carousel">
             <ngb-carousel>
-
+                
                 <ng-template ngbSlide *ngFor="let work of works">
                     <div class="mx-auto">
                         <img [src]="work.img" alt="Angular Carousel 1" class="img-responsive">
@@ -26,9 +26,12 @@
                         <p> {{ work.description }} </p>
                         <p class=""> Technologies: <span class="font-weight-lighter"> [{{ work.technologies.join(', ') }}] </span></p>
                     </div>
+                    
+                    
                 </ng-template>
-
+            
             </ngb-carousel>
+
         </div>
     </div>
 
